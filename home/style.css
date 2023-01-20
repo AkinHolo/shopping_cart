@@ -1,0 +1,241 @@
+        /* business name */
+.bizness_name{
+    color: gold;
+    background-color: rgba(7, 5, 5, 0.788);
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+.bizness_name >p{
+    color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    font-style: italic;
+    text-align: center;
+    text-justify: newspaper;
+    text-underline-offset: 20px red;
+}
+
+h1{
+    text-align: center;
+
+}
+
+        /* navigation bar  */
+.nav-bar{
+    background-color: red;
+    height: 40px;
+    place-content: center;
+    align-content: center;
+    align-items: center;
+    place-items: center;
+   
+}
+
+.search{
+    float: right;
+    height: 25px; 
+    margin-right: 20px;
+    
+}
+
+.search input[type=text]{
+    width:300px;
+    height:20px; 
+    border-radius: 25px;
+    border: none;
+    padding: 5px;
+}
+
+.search button{
+    height: 35px;
+    width: 50px;
+    background-color: red; 
+    color: #f2f2f2; 
+    float: right;
+    font-size: 20px;
+    border-radius: 25px;
+    border: none;
+}
+
+            /* the purchases cart  */
+
+.cart{
+    float: right;
+
+}
+
+.the_cart{
+    position: sticky;
+    top: 5%;
+    right: 0;
+    left: 90%;
+    bottom: 0px;
+}
+
+.counter{
+    color: white;
+    background-image: url("https://cdn.pixabay.com/photo/2014/04/02/10/53/shopping-cart-304843__340.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-x: 60%;
+    background-position-y: 70%;
+    /* background-color: black; */
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    outline-style: inset;
+    outline-color: red;
+}
+
+
+        /*items for purchase  */
+.products{
+    display: flex;
+    gap: 30px;
+    /* padding: 50px; */
+
+}
+
+
+.clothes-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* place-content: center; */
+    gap: 50px;
+    padding: 50px;
+    /* margin-left: 20%; */
+    background-color: whitesmoke;
+}
+
+.sweater{
+    background-color: blue;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.polo{
+    background-color: brown;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+.black-short{
+    background-color:chartreuse;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+
+
+/* table (selected items */
+
+/* div{
+    background-color: pink;
+} */
+
+.watch-gallery{
+    display: flex;
+    padding: 50px;
+    gap: 60px;
+    /* place-content: center; */
+   
+
+}
+
+
+/* .polos > div{
+    background-color: blanchedalmond;
+    padding: 30px;
+} */
+.wrist-watch{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    /* align-items: center;
+    gap: 60px; */
+    /* background-size: 100px;
+    background-color: red; */
+}
+
+.smart-watch{
+    background-color:aqua;
+    padding: 60px 30px;
+    border-radius: 25px;
+}
+
+.leather-watch{
+    background-color:darkgoldenrod;
+    padding: 60px 30px;
+    border-radius: 25px;
+
+}
+
+.computer-watch{
+    background-color: purple;
+    padding: 60px 30px;
+    border-radius: 25px;
+}
+
+
+img{
+    width: 200px;
+    /* border-color: blue; */
+    border-radius: 30px;
+    border-width: 200px;
+    /* background-color: ; */
+}
+
+.price{
+    color: black;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    font-size: large;
+    padding: 5px;
+    margin: 5%;
+    background-color: aliceblue;
+    border-radius: 500px;
+}
+
+.buy{
+    color: gold;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    /* box-sizing: border-box; */
+    border-radius: 100px;
+    background-color: black;
+    outline-style: groove;
+    outline-color: white;
+}
+
+
+
+.btn{
+    color: white;
+    float: right;
+    font-size: 25px;
+    background-color: inherit;
+    background-size: cover;
+    border-radius: 100px;
+    padding: 5px;
+    border: none;
+    
+
+}  
+table{
+    color: white;
+    justify-content: center;
+    padding: 40px;
+    gap: 100px;
+
+}
+
+/* .red-border{
+    background-color: red;
+} */

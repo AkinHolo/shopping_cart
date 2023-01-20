@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submittion | DOM Project</title>
+
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="stackpath.boostrapcdn.com/boostrap/4.4.1/css/boostrap.min.css 
+    "integrity="sha384-Vkoo8x4CGs03+Hhxv8T/Q5PaXtkktu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+</head>
+<body>
+        <!-- business name -->
+    <div class="bizness_name">
+        <h1>Jawu Shopping Collection</h1>
+        <p>Submission/DOM_Project</p>
+    </div>
+
+    <nav>
+        <div>
+            <nav class="nav-bar">
+                <form class="search" action="action_products" > 
+                    <input type="text" placeholder="search products"  name="search">  
+                     <button  type="submit"><i class="fa fa-search"></i></button>
+                </form>
+                </div>
+            </nav>
+        </div>
+    </nav>
+
+            <!-- the purchases cart -->
+    <div class="cart the_cart">
+        <div>
+            <!-- <img class="cart: right;" src="https://cdn.pixabay.com/photo/2014/04/02/10/53/shopping-cart-304843__340.png"> -->
+            <div class="counter"></div>   
+        </div>
+    </div>
+
+    
+            <!-- items for purchase -->
+        <div class="products">
+            <div class="clothes-gallery">
+                <div class="sweater col-3" >
+                    <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/73/839567/1.jpg?0634" alt="jpeg">
+                    <div class="price">price 5000</div> 
+                    <button type="button" class="buy">buy now</button>
+                    <button type="button" class="btn btn-success" id="love-icon-sweater" onclick="changeLoveIconColor1(1)"><i class="fa fa-heart"></i></button>
+                </div>
+                <div class="polo">
+                    <img src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/32/044439/1.jpg?4177" alt="jpeg" />
+                    <div class="price">price 3000</div>
+                    <button type="button" class="buy">buy now</button>
+                    <button type="button" class="btn btn-success" id="love-icon-polo" onclick="changeLoveIconColor2(1)"><i class="fa fa-heart"></i></button>
+                </div>
+                <div class="black-short">
+                    <img src="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/67/016127/1.jpg?1137" alt=""jpeg>
+                    <div class="price">price 3000</div>
+                    <button type="button" class="buy">buy now</button> 
+                    <button type="button" class="btn btn-success" id="love-icon-black_short" onclick="changeLoveIconColor3(1)"><i class="fa fa-heart"></i></button>
+                </div>
+            </div>
+        </div>
+        
+           
+        <div class="watch-gallery">
+            <!-- <div class="wrist-watch row"> -->
+                <div class="smart-watch col-3">
+                    <img src="https://media.istockphoto.com/id/518820558/photo/smartwatch-digital-clock-on-white.jpg?s=612x612&w=0&k=20&c=iytJPHBJ15SoPGcnDjXIBa6PjE7c0qIap8WJf_oETbg=" alt="jpeg">
+                    <div class="price">price 3000</div>
+                    <button type="button" class="buy">buy now</button>
+                    <button type="button" class="btn btn-success" id="love-icon-smart_watch" onclick="changeLoveIconColor4(1)"><i class="fa fa-heart"></i></button> 
+                </div>
+                <div class="leather-watch col-3">
+                    <img src="https://media.istockphoto.com/id/1359180038/photo/wristwatch.jpg?b=1&s=170667a&w=0&k=20&c=IfgsIwH-jjyvuiCPs0PEjIczFqWN3-RC63Z3LoMFmFM=" alt="jpeg">
+                    <div class="price">price 3000</div>
+                    <button type="button" class="buy">buy now</button> 
+                    <button type="button" class="btn btn-success" id="love-icon-leather_watch" onclick="changeLoveIconColor5(1)"><i class="fa fa-heart"></i></button>
+                </div>
+                <div class="computer-watch col-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO1AJISFIG5_ilqyR9vpn6gY80XkxsAQBl6tEAIR6fv4NoiL4oYVMR6vMwohk_y1_ZQW4&usqp=CAU" alt="">
+                    <div class="price">price 3000</div>
+                    <button type="button" class="buy">buy now</button> 
+                    <button type="button" class="btn btn-success" id="love-icon-computer_watch" onclick="changeLoveIconColor6(1)"><i class="fa fa-heart"></i></button>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+
+
+    <!--table (items selected) -->
+        <table border="1" width="50px" height="50px">
+            <tr class="red-border">
+                <th class="red-border">PRODUCT</th>
+                <th class="red-border">PRICE<br>(per unit)</th>
+                <th class="red-border">QUANTITY</th>
+                <th class="red-border">AMOUNT</th>   
+            </tr>
+            <tr>
+                <td>cloth</td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
